@@ -1,26 +1,19 @@
-/*git add .
-
-git commit -m "First commit"
-
-git push
-*/
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TDK | Personal Portfolio</title>
+    <title>Tran Dang Khuong | Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <div class="logo">TDK<span>.DEV</span></div>
+        <div class="logo">KHUONG<span>.TDK</span></div>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#about">Profile</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -29,47 +22,53 @@ git push
     <header id="home">
         <div class="hero-content">
             <div class="profile-container">
-                <img src="images/avatar.jpg" alt="TDK Profile" class="profile-pic">
+                <img src="images/avatar.jpg" alt="Tran Dang Khuong" class="profile-pic">
             </div>
-            <h1>Hi, I'm <span class="highlight">TDK</span></h1>
-            <p>E-Commerce Student | Aspiring Data Analyst</p>
+            <h1>I'm <span class="highlight">Tran Dang Khuong</span></h1>
+            <p>Industrial Management Student | Group 5</p>
+            
+            <div class="id-badge">
+                <span><i class="fas fa-id-card"></i> ID: 2252391</span>
+                <span><i class="fas fa-users"></i> Group 5</span>
+            </div>
+
             <div class="cta-buttons">
-                <a href="#contact" class="btn primary">Get In Touch</a>
-                <a href="#skills" class="btn secondary">View Skills</a>
+                <a href="#about" class="btn primary">About Me</a>
+                <a href="https://github.com/tdk11122004" class="btn secondary">Github</a>
             </div>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>I am a passionate technology enthusiast specializing in E-Commerce. I enjoy solving complex problems through code and data-driven insights. Currently, I am focused on researching ESG performance and corporate behavior using advanced analytical methods.</p>
+            <h2>Academic Profile</h2>
+            <div class="about-flex">
+                <div class="about-text">
+                    <p>I am a student majoring in <strong>Industrial Management</strong>. With a strong foundation in E-Commerce and data systems, I am currently a member of <strong>Group 5</strong>, working on innovative logistics and supply chain solutions.</p>
+                    <p>My research interests include ESG performance, climate change media coverage, and applying Genetic Algorithms to solve real-world production scheduling problems.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
-            <h2>Technical Skills</h2>
+            <h2>Technical Stack</h2>
             <div class="skill-grid">
                 <div class="skill-card">
                     <i class="fab fa-python"></i>
                     <h3>Python</h3>
-                    <p>Data Analysis & Genetic Algorithms</p>
+                    <p>Optimization & Analysis</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h3>JavaScript</h3>
-                    <p>Web Development & Node.js</p>
+                    <i class="fas fa-industry"></i>
+                    <h3>Operations</h3>
+                    <p>Industrial Management</p>
                 </div>
                 <div class="skill-card">
-                    <i class="fas fa-file-excel"></i>
-                    <h3>Excel & VBA</h3>
-                    <p>Financial Modeling & Data Management</p>
-                </div>
-                <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-leaf"></i>
                     <h3>ESG Research</h3>
-                    <p>Sustainability & Corporate Behavior</p>
+                    <p>Sustainability Metrics</p>
                 </div>
             </div>
         </div>
@@ -77,13 +76,11 @@ git push
 
     <section id="contact">
         <div class="container">
-            <h2>Let's Connect</h2>
             <div class="social-links">
                 <a href="https://github.com/tdk11122004" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
             </div>
-            <p class="copyright">© 2026 Designed by TDK. All rights reserved.</p>
+            <p class="copyright">© 2026 Tran Dang Khuong - ID: 2252391</p>
         </div>
     </section>
 
